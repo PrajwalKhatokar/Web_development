@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="grey">
+    <form action="">
+        <fieldset>
+        <marquee behavior="alternate" direction="right">
+        <legend>Personal  Details</legend></marquee>
+        <label for="ufirst">FirstName</label>
+        <input type="text" id="ufirst" required placeholder="prajwal" pattern="[A-Z a-z]{3,8}"><br><br>
+        <label for="ulast">LastName</label>
+        <input type="text" id="ulast" required><br><br>
+        <label for="udate">Date of Birth</label>
+        <input type="date" id="udate" required><br><br>
+        <label for="uemail">Email</label>
+        <input type="email" id="uemail" required><br><br>
+        </fieldset>
+        <fieldset>
+        <marquee behavior="alternate" direction="right">
+        <legend>Educational Details</legend></marquee>
+        <label for="">Department</label>
+        <input type="radio" id="ucs" name="Depart">
+        <label for="ucs">CS</label>
+        <input type="radio" id="ucs"  name="Depart">
+        <label for="umca">MCA</label>
+        <input type="radio" id="umca"  name="Depart">
+        <label for="ube">BE</label>
+        <label for="umca">MCA</label><br><br>
+        <label for="">Year of Graduation</label>
+        <input list="yog">
+        <datalist id="yog">
+            <option >2021</option>
+            <option >2022</option>
+            <option >2023</option>
+            <option >2024</option>
+            <option >2025</option>
+        </datalist>
+        <br><br>
+        <label for="">Skills</label>
+        <input type="checkbox" id="uhtml">
+        <label for="uhtml">html</label>
+        <input type="checkbox" id="ucss">
+        <label for="ucss">CSS</label>
+        <input type="checkbox" id="ujs">
+        <label for="ujs">Java Script</label>
+        </fieldset>
+        <input type="submit">
+        <br><br>
+        <!--use of no breakspace if i not use this image full closely attached-->
+        <img src="praj.jpg" alt="" width="200px"  height="200px">&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+        &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+        <img src="praj.jpg" alt="" width="200px"  height="200px">
+        
+
+
+
+
+
+    </form>
+</body>
+</html>
